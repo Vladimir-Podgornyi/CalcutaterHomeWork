@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(153, 149, 149);
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-size: 17px;
+    color: #000;
+}
+
+
+.telega {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+a:visited {
+    color: #000;
+}
+
+
+
+.calculater {
+    position: relative;
+    display: block;
+    width: 290px;
+    padding: 5px;
+    height: 395px;
+    background-color: #ffffff1d;
+    margin: 30px auto;
+    box-shadow: 5px 19px 52px 14px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+
+.calculater_schirm {
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.739);
+    padding: 20px 20px 8px 20px;
+    height: 100px;
+    border-radius: 9px;
+    color: #fff;
+    align-items: end;
+    justify-content: end;
+}
+
+.buttons {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    row-gap: 5px;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 30px 3px rgba(0, 0, 0, 0.5);
+
+    width: 67px;
+    height: 54px;
+    
+    background: #585859;
+    cursor: pointer;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+  /* #78787c #848487; */
+.btn:hover {
+    background: #454547;
+    transition: .4s;
+}
+
+.btn:active {
+    background: #303031;
+    transition: .4s;
+    font-size: 15px;
+}
+
+.btn_ac  {
+    width: 215px;
+}
+.btn_ac:active  {
+    color: red;
+    transition: .4s;
+    font-size: 17px;
+}
+
+.btn_zero {
+    width: 141px;
+}
+
+.btn_grey {
+    background: #3d3d3e;
+}
+
+.btn_orange {
+    background: #ff9f0a;
+    font-size: 25px;
+}
+
+/* #d98900; */
+.btn_orange:hover {
+    background: #c77f03;
+    transition: .4s;
+    
+}
+
+.btn_orange:active {
+    background: #af7003;
+    transition: .4s;
+    font-size: 19px;
+}
